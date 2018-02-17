@@ -29,7 +29,8 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
    1. Save the test video in **darkflow-master** as 'test-video.mp4'.
    1. For faster implementation on CPU (unavilability of GPU), run 'reduce_frame_speed.py'.
    1. Execute 
-      > python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --gpu 1.0 --saveVideo
+         > python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --gpu 1.0 --saveVideo
+      <br/>
       Omit the '--gpu 1.0' for Tensorflow CPU version. 
 1. #### Object Detection in Real-Time
    1. Save the test video in **darkflow-master** as 'test-video.mp4'.
