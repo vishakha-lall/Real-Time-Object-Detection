@@ -36,4 +36,13 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
    1. Save the test video in **darkflow-master** as 'test-video.mp4'.
    1. Run 'object_detect_video_realtime.py'. The quality and frame speed is an attribute of hardware compatibility available. 
    
-
+### Tested Samples
+<br/>
+![traffic image 1](https://user-images.githubusercontent.com/31643223/36366210-1ad74128-1573-11e8-9c55-84ab5188718d.jpg)
+<br/>
+![result traffic image 1](https://user-images.githubusercontent.com/31643223/36366256-4c3b01f0-1573-11e8-9d3f-2ede6970d5e1.jpg)
+<br/>
+<br/>
+![traffic image 3](https://user-images.githubusercontent.com/31643223/36366306-808a66b2-1573-11e8-9fea-dc595dc6e581.jpg)
+<br/>
+![result traffic image 3](https://user-images.githubusercontent.com/31643223/36366294-6c9a3024-1573-11e8-87dc-e823b06c9fa2.jpg)
