@@ -37,7 +37,6 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
    1. Run 'object_detect_video_realtime.py'. The quality and frame speed is an attribute of hardware compatibility available. 
    
 ### Tested Samples
-<br/>
 ![traffic image 1](https://user-images.githubusercontent.com/31643223/36366210-1ad74128-1573-11e8-9c55-84ab5188718d.jpg)
 <br/>
 ![result traffic image 1](https://user-images.githubusercontent.com/31643223/36366256-4c3b01f0-1573-11e8-9d3f-2ede6970d5e1.jpg)
