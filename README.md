@@ -1,7 +1,9 @@
 # Real-Time-Object-Detection
-Implementation of YOLO algorithm for real-time object detection and classification 
-
 ## Application: Lane Changer
+<br/>
+
+## YOLO Algorithm
+Implementation of YOLO algorithm for real-time object detection and classification 
 
 ### Dependencies
 * Python 3
@@ -41,3 +43,43 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
 <img src = "https://user-images.githubusercontent.com/31643223/36366256-4c3b01f0-1573-11e8-9d3f-2ede6970d5e1.jpg" width="500" height="400">
 <img src = "https://user-images.githubusercontent.com/31643223/36366306-808a66b2-1573-11e8-9fea-dc595dc6e581.jpg" width="500" height="400">
 <img src = "https://user-images.githubusercontent.com/31643223/36366294-6c9a3024-1573-11e8-87dc-e823b06c9fa2.jpg" width="500" height="400">
+
+<br/>
+<br/>
+<br/>
+## Masked RCNN Algorithm
+Implementation of Masked RCNN algorithm for real-time object segmentation 
+
+### Dependencies
+* Python 3
+* Numpy
+* Scipy
+* Cython
+* H5py
+* Pillow
+* Scikit-image
+* Tensorflow-gpu==1.5/ Tensorflow-cpu==1.5 
+* Keras
+* Jupyter
+
+### Dataset
+This application has been trained on the COCO test-dev dataset. It requires pycocotools which can be used from the Coco api.
+
+### About the Algorithm
+The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
+* Anchor sorting and filtering
+* Bounding box refinement
+* Mask generation
+* Layer activation
+* Weights histogram
+
+### Test the model
+1. Clone the repository.
+1. Install the dependencies.
+1. #### Object Detection in Image
+   1. Save test image in **Mask_RCNN/images** as 'test-image.jpg'.
+   1. Run 'demo.ipynb'.
+   
+### Tested Samples
+<img src = "https://user-images.githubusercontent.com/31643223/36368240-5169f7ae-157c-11e8-9448-b84f43a4bceb.jpg" width="500" height="400">
+<img src = "https://user-images.githubusercontent.com/31643223/36368258-6a2665de-157c-11e8-95c3-59ac30acdc11.png" width="500" height="400">
