@@ -6,7 +6,6 @@
 Implementation of YOLO algorithm for real-time object detection and classification 
 
 ### Libraries
-* Python 3
 * Tensorflow CPU/GPU
 * Numpy
 * OpenCV
@@ -52,7 +51,6 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
 Implementation of Masked RCNN algorithm for real-time object segmentation 
 
 ### Libraries
-* Python 3
 * Numpy
 * Scipy
 * Cython
@@ -61,7 +59,6 @@ Implementation of Masked RCNN algorithm for real-time object segmentation
 * Scikit-image
 * Tensorflow-gpu==1.5/ Tensorflow-cpu==1.5 
 * Keras
-* Jupyter
 
 ### Dataset
 This application has been trained on the COCO test-dev dataset. It requires pycocotools which can be used from the Coco api.
