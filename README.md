@@ -5,7 +5,7 @@
 ## YOLO Algorithm
 Implementation of YOLO algorithm for real-time object detection and classification 
 
-### Dependencies
+### Libraries
 * Python 3
 * Tensorflow CPU/GPU
 * Numpy
@@ -47,10 +47,11 @@ YOLO looks at the whole image at test time so its predictions are informed by gl
 <br/>
 <br/>
 <br/>
+
 ## Masked RCNN Algorithm
 Implementation of Masked RCNN algorithm for real-time object segmentation 
 
-### Dependencies
+### Libraries
 * Python 3
 * Numpy
 * Scipy
