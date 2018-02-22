@@ -74,9 +74,12 @@ The model generates bounding boxes and segmentation masks for each instance of a
 ### Test the model
 1. Clone the repository.
 1. Install the dependencies.
-1. #### Object Detection in Image
+1. #### Object Segmentation in Image
    1. Save test image in **Mask_RCNN/images** as 'test-image.jpg'.
    1. Run 'demo.ipynb'.
+1. #### Object Segmentation in Video
+   1. Save the test video in **Mask_RCNN** as 'test-video.mp4'.
+   1. Run 'segmentation_video.py'.
    
 ### Tested Samples
 <img src = "https://user-images.githubusercontent.com/31643223/36368240-5169f7ae-157c-11e8-9448-b84f43a4bceb.jpg" width="500" height="400">
